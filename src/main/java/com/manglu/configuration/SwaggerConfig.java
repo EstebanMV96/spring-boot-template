@@ -33,7 +33,7 @@ public class SwaggerConfig {
                 "Spring Boot REST API",
                 "1.0",
                 "Terms of service",
-                new Contact("Manglu", "www.manglu.co", "manglu@gmail.com"),
+                new Contact("Esteban Moya V", "https://github.com/EstebanMV96", "manglu@gmail.com"),
                "Apache License Version 2.0",
                 "https://www.apache.org/licenses/LICENSE-2.0", new ArrayList<VendorExtension>());
         return apiInfo;

@@ -11,9 +11,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = "com.manglu.template")
+@ComponentScan(basePackages = "com.manglu")
 @EnableAutoConfiguration
-@EntityScan(basePackages = "com.manglu.template")
+@EntityScan(basePackages = "com.manglu")
 @EnableJpaRepositories("com.manglu.template.repository")
 @EnableScheduling
 public class TemplateApplication {
